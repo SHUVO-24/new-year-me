@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.work-sans-fonts {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* shared style */
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F15B22;
+    cursor: pointer;
+}
+
+
+/* main style start */
+header {
+    height: 800px;
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-container {
+    text-align: right;
+    padding: 180px 230px 355px 640px;
+}
+.banner-heading h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.banner-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+/* failure part start */
+#failure {
+    margin-top: 130px;
+}
+
+#failure .failure-container {
+    width: 85%;
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.failure-container .failure-content {
+    margin-top: 150px;
+    width: 400px;
+    /* height: 380px; */
+    /* border: 1px solid salmon; */
+    /* height: 300px; */
+    /* padding: 30px 120px 0 0; */
+
+}
+#failure .failure-container img {
+    width: 500px;
+    height: 620px;
+}
+.failure-container .failure-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-content p {
+    color: #444343;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    /* margin-bottom: 20px; */
+}
+.icon-content p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #444343;
+    font-weight: 400;
+}
