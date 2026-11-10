@@ -20,6 +20,16 @@
     cursor: pointer;
 }
 
+.call-btn{
+    background-color: #FFFFFF;
+    color: #F15B22;
+    padding: 18px 30px;
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
 
 /* main style start */
 header {
@@ -139,4 +149,26 @@ header {
     font-weight: 600;
     color: #737272;
     margin-bottom: 120px;
+}
+
+
+/* mindset section start */
+
+#mindset .mindset-container {
+    width: 85%;
+    max-width: 1140px;
+    margin: 80px auto;
+    height: 300px;
+    background: url(../images/gradient3.png) , url(../images/watch.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.mindset-container h1 {
+    max-width: 450px;
+    padding: 60px 60px 30px 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
 }
